@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import RecipeIdeas from "./component/recipe"
+import WeatherNow from "./component/weather";
 
 function App() {
   return (
-    <div className="App">
-    
-    </div>
+      <div>
+        {/* <RecipeIdeas/> */}
+        <WeatherNow/>
+      </div>
   );
 }
 
